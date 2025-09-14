@@ -28,7 +28,7 @@ fi
 set +e
 bridgehead_repository_url=$(git remote get-url origin)
 if [ $? -ne 0 ]; then
-    bridgehead_repository_url="https://github.com/samply/bridgehead.git"
+    bridgehead_repository_url="https://github.com/crs4/bridgehead.git"
 fi
 set -e
 if [ -d "/srv/docker/bridgehead" ]; then
